@@ -11,3 +11,6 @@ Open index.js and run       npm install
 Next, simply run            npm index.js
 Supply input upon request
 Done! it should generate a pdf in the relative folder. 
+
+
+![](https://gph.is/g/Zk6x5M1)
