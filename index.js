@@ -2,7 +2,6 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const pdfKit = require("pdfkit");
 const gen = require("./userInfoGenerator.js");
-const process = require("process");
 let color = "green";
 let user;
 const doc = new pdfKit;
@@ -33,7 +32,7 @@ async function Main(name)
     const leftMargin = 40;
     console.log(name);
     user = await gen.user(name)
-    doc.pipe(fs.createWriteStream('resume.pdf'));
+    doc.pipe(fs.createWriteStream('portfolio.pdf'));
 
     doc.rect(0, 0, 1000, 1000).fillOpacity(0.3).fill(color);
     doc.fillOpacity(1).fill('black');
