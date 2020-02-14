@@ -13,4 +13,5 @@ Supply input upon request
 Done! it should generate a pdf in the relative folder. 
 
 
-![](https://gph.is/g/Zk6x5M1)
+![Demo](https://media.giphy.com/media/JUpoB93PZAE73BrUVs/giphy.gif)
+
