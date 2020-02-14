@@ -6,4 +6,8 @@ all of the prgramming was accomplished in javaScript. I used several node packag
 and inquirer. 
 
 # how to use:
-download 
+download the package and place all the files in one folder.
+Open index.js and run       npm install
+Next, simply run            npm index.js
+Supply input upon request
+Done! it should generate a pdf in the relative folder. 
