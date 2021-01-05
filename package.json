@@ -4,7 +4,7 @@
   "description": "This Portfolio builder is straightforward and simple. Upon request, input a github username at which point the app will generate\r a pdf information page. The user may also choose a background color for the pdf file. The page includes their profile picture, name, username, and more. This is my first app built in node.js. \r all of the prgramming was accomplished in javaScript. I used several node packages to build the app file system, pdfKit, axios \r and inquirer.",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "inquirer": "^7.0.4",
     "pdfkit": "^0.11.0"
   },
